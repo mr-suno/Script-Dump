@@ -26,7 +26,7 @@ if getgenv().MrBot then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mr-suno/Script-Dump/refs/heads/main/soundSpace.luau"))()
 	end)
 
-	notify("Mr. Boot has already been loaded,\n\nrejoining the game and relaunching Mr. Bot", 3)
+	notify("Mr. Bot has already been loaded,\n\nrejoining the game and relaunching Mr. Bot", 3)
 
 	task.wait(2)
 
